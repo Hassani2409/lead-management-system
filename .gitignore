@@ -1,0 +1,12 @@
+# API Keys und sensible Konfigurationen
+config/api_keys.json
+config/.env
+.env
+*.key
+*.token
+# Logs und temporäre Dateien
+*.log
+workflow_outputs/
+ki_automation_leads/
+ki_automation_analyses/
+node_modules

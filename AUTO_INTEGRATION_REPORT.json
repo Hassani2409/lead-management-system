@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-08-28T17:14:08.727769",
+  "system_status": {
+    "lead_management_app_exists": true,
+    "leads_database_exists": true,
+    "auto_integration_script_exists": true,
+    "scraper_integration_enabled": true,
+    "current_lead_count": 402,
+    "auto_integrated_leads": 0,
+    "integration_methods": [
+      "File System Watcher",
+      "Direct Scraper Integration",
+      "Step2 Lead Processor"
+    ]
+  },
+  "integration_flow": [
+    {
+      "step": "Scraper runs and generates leads",
+      "description": "Real scrapers collect business data",
+      "status": "configured"
+    },
+    {
+      "step": "Leads saved to files (CSV/JSON)",
+      "description": "Scraped data written to output files",
+      "status": "configured"
+    },
+    {
+      "step": "Auto-integration triggered",
+      "description": "File watcher or direct integration activates",
+      "status": "configured"
+    },
+    {
+      "step": "Leads processed and cleaned",
+      "description": "Data standardized for app format",
+      "status": "configured"
+    },
+    {
+      "step": "Leads added to app database",
+      "description": "New leads integrated into leads.json",
+      "status": "configured"
+    },
+    {
+      "step": "App displays updated leads",
+      "description": "UI shows new leads in real-time",
+      "status": "configured"
+    }
+  ],
+  "output_directories": {
+    "live_scraper_results": {
+      "exists": true,
+      "file_count": 0,
+      "recent_files": []
+    },
+    "scraper_results": {
+      "exists": true,
+      "file_count": 0,
+      "recent_files": []
+    },
+    "ki_automation_leads": {
+      "exists": true,
+      "file_count": 9,
+      "recent_files": [
+        "ki_leads_professional_services_20250823_144909.csv",
+        "ki_leads_hospitality_food_20250823_143324.csv",
+        "ki_leads_health_wellness_20250823_143023.csv"
+      ]
+    },
+    "google-maps-scraper": {
+      "exists": true,
+      "file_count": 2,
+      "recent_files": [
+        "results.csv",
+        "real-leads.csv"
+      ]
+    }
+  },
+  "summary": {
+    "integration_ready": true,
+    "total_integration_methods": 3,
+    "current_leads": 402,
+    "auto_integrated_leads": 0
+  }
+}
