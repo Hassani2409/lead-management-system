@@ -1,5 +1,6 @@
 # 🧠 LEAD SCORING REPORT
 Generated: 2025-08-28 17:27:39
+This is a minor formatting touch-up for verification.
 
 ## 📊 Overview
 - **Total Leads:** 402
